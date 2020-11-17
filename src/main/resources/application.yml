@@ -1,0 +1,8 @@
+driver-class-name: ENC(HsLX8IjHNBYKSFqotmJskxlB3b8moiIkUqpIPex58dpeA1tz9Sw/lQ==)
+url: ENC(OsP/kBCyACPqrRsN0vhMhUgZ9nPHMsy6akIKP5DuQ3pvQgBKN33kZ1Mz75s60YEmm0vEk8GffHDvZsrXHqdAgxrePeV/TxzV+fQPu/2G5mEOmUvXUzf6RAFka7hZVXqrcdGj1si8U9U=)
+spring:
+  datasource:
+    driver-class-name: ${driver-class-name}
+    url: ${url}
+    username: ENC(JsVTUGhCVdjJ+RhhusHAuw==)
+    password: ENC(51NlHUTeB0eyFzIpyQ8Pe9VEkGbDwQqS)
