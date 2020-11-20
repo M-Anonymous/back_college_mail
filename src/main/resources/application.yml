@@ -6,3 +6,6 @@ spring:
     url: ${url}
     username: ENC(JsVTUGhCVdjJ+RhhusHAuw==)
     password: ENC(51NlHUTeB0eyFzIpyQ8Pe9VEkGbDwQqS)
+zhenzikj:
+  appid: ENC(R/tnCXNt7xnRG134e7CtFg==)
+  appsecret: ENC(8W3CN/kzyKUPUrCqnCAxTnip1xTdqKjXDXOSqVzxq8rQCV1qCvN1d1QFV9nqxoFL91S0SPSCQDsAEmx+2z4eWg==)
