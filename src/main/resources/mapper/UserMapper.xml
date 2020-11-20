@@ -2,4 +2,14 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.mail.college.mapper.UserMapper">
 
+    <select id="queryUserRolesById" resultType="java.lang.String">
+        SELECT
+            role.role_name
+        FROM
+            user_link_role ulr
+            JOIN role
+        WHERE
+            ulr.rid = role.rid
+            AND ulr.uid = #{id}
+    </select>
 </mapper>

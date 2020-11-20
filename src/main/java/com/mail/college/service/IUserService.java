@@ -1,6 +1,6 @@
 package com.mail.college.service;
 
-import com.mail.college.entity.User;
+import com.mail.college.entity.SimpleUser;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author anonymous
  * @since 2020-11-17
  */
-public interface IUserService extends IService<User> {
+public interface IUserService extends IService<SimpleUser> {
 
 }
